@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# ChromaDB persisted data
+chroma_db/
+chroma_multimodal_db/
+
+# Extracted images from PDFs
+images/
+
+# PDF source documents (likely large/private)
+documents/
